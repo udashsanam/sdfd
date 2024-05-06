@@ -85,9 +85,9 @@ function traverse (root) {
       if(TreeNode.left !== null) {
         queue.addBack(TreeNode.left)
       }
-    }
-    if(TreeNode.right !== null) {
-      queue.addBack(TreeNode.right)
+      if(TreeNode.right !== null) {
+        queue.addBack(TreeNode.right)
+      }
     }
   }
   
